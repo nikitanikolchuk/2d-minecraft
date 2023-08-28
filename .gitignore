@@ -1,3 +1,8 @@
 *.exe
 *.o
-nikolnik
+.idea/
+doc/
+build/
+2D\ Minecraft
+examples/init.map
+examples/save.map

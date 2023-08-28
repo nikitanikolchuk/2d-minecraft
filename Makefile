@@ -1,7 +1,7 @@
 SRC_DIR := src
 BUILD_DIR := build
 DOC_DIR := doc
-EXECUTABLE := nikolnik
+EXECUTABLE := 2D\ Minecraft
 HEADER_FILES := $(wildcard $(SRC_DIR)/*.h)
 SRC_FILES := $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SRC_FILES))
